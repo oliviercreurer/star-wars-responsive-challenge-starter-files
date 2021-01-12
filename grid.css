@@ -4,9 +4,9 @@
 
 .row {
   max-width: 1000px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 20px auto;
 }
 
 .row::before,
@@ -19,7 +19,7 @@
   clear: both;
 }
 
-.col-4 {
+.col-4, .col-12 {
   float: left;
   padding-left: 1.04166666%;
   padding-right: 1.04166666%;
